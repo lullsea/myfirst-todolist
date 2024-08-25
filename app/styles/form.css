@@ -1,0 +1,28 @@
+form > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input{
+    padding: 4px;
+    border: 1px solid gray;
+}
+
+button[type="submit"]{
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    background: #42a5f5;
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+textarea{
+    resize: none;
+    height: 150px;
+    border: 1px solid gray;
+    padding: 4px;
+}
